@@ -9,12 +9,12 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Latitude</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" href="index.html">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="#navbarNavDropdown">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,15 +36,13 @@
     </ul>
   </div>
 </nav>
-
 <div class="container ">
     <div class="row">
-      <div class="col-lg-7 col-md-12">
-        <!-- Left box  -->
+      <div class="col-lg-6 col-md-12">
         <div class="box">
           <h3 class="title">Summary: Latitude vs. X</h3>
           <hr>
-            <img src="WebVisualizations/Resources/assets/images/Fig1.png" alt="Latitude vs Temperature" class="rounded main-image">
+            <img src="WebVisualizations/Resources/assets/images/Fig1.png" alt="Latitude vs Temperature" class="Thumbnail rounded float-left">
             <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
                 To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
             <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked
@@ -53,27 +51,23 @@
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
-        <!-- Right Box -->
         <div class="box">
           <h5 class="title">Visualizations</h5>
           <hr>
-
           <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
+            <div class="row" style="padding-bottom: 20px;">
               <div class="col-6">
-            <a href="MaxTemperature.html"><img src="WebVisualizations/Resources/assets/images/Fig1.png" class="rounded float-left thumbnail" alt="LatMaxTemperature"></a>
+            <a href="MaxTemperature.html"><img src="WebVisualizations/Resources/assets/images/Fig1.png" class="thumbnails" alt="LatMaxTemperature"></a>
               </div>
               <div class="col-6">
-            <a href="Humidity.html"><img src="WebVisualizations/Resources/assets/images/Fig2.png" class="rounded float right thumbnail" alt="Humidity"></a>
+            <a href="Humidity.html"><img src="WebVisualizations/Resources/assets/images/Fig2.png" class="thumbnails" alt="Humidity"></a>
               </div>
-             </div>
-
-             <div class="row" style="padding-bottom: 30px;">
+             <div class="row" style="padding-bottom: 20px;">
               <div class="col-6">
-            <a href="Cloudiness.html"><img src="WebVisualizations/Resources/assets/images/Fig3.png" class="rounded float-left  thumbnail" alt="Cloudiness"></a>
+            <a href="Cloudiness.html"><img src="WebVisualizations/Resources/assets/images/Fig3.png" class="thumbnails" alt="Cloudiness"></a>
               </div>
               <div class="col-6">
-            <a href="WindSpeed.html"><img src="WebVisualizations/Resources/assets/images/Fig4.png" class="rounded float right  thumbnail" alt="WindSpeed"></a>
+            <a href="WindSpeed.html"><img src="WebVisualizations/Resources/assets/images/Fig4.png" class="thumbnails" alt="WindSpeed"></a>
               </div>
              </div>
           </div>
